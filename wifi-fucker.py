@@ -103,7 +103,7 @@ while refreshing:
     input_is_valid = False
     killall = False
     while not input_is_valid:
-        choice = raw_input(">")
+        choice = input(">")
         if choice.isdigit():
             # If we have a number, see if it's in the range of choices
             if int(choice) < len(devices) and int(choice) >= 0:
