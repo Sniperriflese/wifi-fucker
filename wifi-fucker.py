@@ -47,7 +47,7 @@ def get_lan_ip():
   s.close()
   return ip[0]
 
-def print(div():)
+def print(div())
   print('--------------------')
 
 # Check for root
